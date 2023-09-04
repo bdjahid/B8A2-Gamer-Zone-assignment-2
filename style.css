@@ -13,8 +13,6 @@ nav {
     width: 1220px;
     height: 80px;
     margin: 0 auto;
-    padding-left: 50px;
-    padding-right: 50px;
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     display: flex;
@@ -100,9 +98,7 @@ nav {
 
 .banner-container {
     display: flex;
-    justify-content: center;
     align-items: center;
-    background-color: aqua;
     margin: 0 auto;
     width: 1220px;
     height: 700px;
@@ -114,9 +110,8 @@ nav {
 
 .banner-title h2 {
     color: #0B0223;
-    text-align: center;
     font-family: Work Sans;
-    font-size: 48px;
+    font-size: 52px;
 }
 
 .banner-title span {
@@ -124,14 +119,12 @@ nav {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-align: center;
     font-family: Work Sans;
     font-size: 95px;
 }
 
 .banner-des {
     color: #534C64;
-    margin-left: 150px;
     font-family: Work Sans;
     font-size: 20px;
     font-style: normal;
@@ -163,19 +156,87 @@ nav {
     width: 100%;
 }
 
+/* gamers section */
+
+.gamer-title {
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+}
+
+.gamer-title span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 48px;
+}
+
+.gamer-des {
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    line-height: 0.1px;
+    margin-bottom: 50px;
+}
+
+.gamer {
+    display: flex;
+    gap: 20px;
+    margin-left: 56px;
+    margin-right: 56px;
+}
+
+.gamer img {
+    width: 300px;
+    margin: 0 auto;
+}
+
 /* media query mobile device */
 
 @media screen and (max-width: 576px) {
+
     nav {
         flex-direction: column;
         width: 100%;
-        margin-left: 10px;
     }
 
     .nav-link {
         flex-direction: column;
         width: 100%;
-        /* align-items: start; */
+        align-items: start;
+    }
+
+    .banner-container {
+        margin-top: 200px;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .banner-title {
+        width: 100%;
+    }
+
+    .banner-img {
+        width: 100%;
+    }
+
+    .gamer-container {
+        margin-top: 250px;
+    }
+
+    .gamer-des {
+        flex-wrap: wrap;
+        line-height: normal;
+    }
+
+    .gamer {
+        flex-direction: column;
     }
 }
 
