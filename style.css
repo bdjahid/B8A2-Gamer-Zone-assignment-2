@@ -93,3 +93,21 @@ nav {
     color: #F61C0D;
     margin-left: 10px;
 }
+
+/* media query mobile device */
+
+@media screen and (max-width: 576px) {
+    nav {
+        flex-direction: column;
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    .nav-link {
+        flex-direction: column;
+        width: 100%;
+        /* align-items: start; */
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px) {}
