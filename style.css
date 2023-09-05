@@ -193,8 +193,113 @@ nav {
 }
 
 .gamer img {
-    width: 300px;
+    width: 290px;
     margin: 0 auto;
+}
+
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: 100px;
+    gap: 5px;
+    margin-left: 55px;
+    margin-right: 55px;
+}
+
+.gallery button {
+    display: flex;
+    margin-bottom: 15px;
+    align-items: center;
+    gap: 5px;
+    font-family: Work Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 0;
+    background-color: #FFF;
+
+}
+
+.gallery button:hover {
+    color: #F948B2;
+    border-radius: 50px;
+    border: 1.5px solid #FF42A5;
+    background: #FFF;
+}
+
+/* footer section */
+footer {
+    margin-top: 120px;
+    background: #0B0223;
+}
+
+#footer-id {
+    justify-content: center;
+    width: 1220px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+#footer-id p {
+    display: inline;
+    color: white;
+}
+
+.footer-title {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.footer-title p {
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.footer-content p {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+footer div {
+    color: #fafafa;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 36px;
+    margin: 40px 0;
+}
+
+footer div i {
+    margin-left: 50px;
+}
+
+.footer-des {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 100px;
 }
 
 /* media query mobile device */
@@ -237,6 +342,12 @@ nav {
 
     .gamer {
         flex-direction: column;
+    }
+
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
     }
 }
 
