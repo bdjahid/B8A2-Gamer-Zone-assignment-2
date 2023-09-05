@@ -411,6 +411,27 @@ footer div i {
         flex-direction: column;
     }
 
+    .careers-container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .careers-content {
+        width: 100%;
+        padding: 0px 0px;
+        margin-left: 15px;
+    }
+
+    .careers-img {
+        width: 100%;
+    }
+
+    .careers-des {
+        /* width: 100%;
+        display: flex;
+        flex-wrap: wrap;  */
+    }
+
     .gallery {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
