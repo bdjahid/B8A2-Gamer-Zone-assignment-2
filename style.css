@@ -589,8 +589,16 @@ footer div i {
         width: 100%;
     }
 
+    .position-img {
+        height: 100%;
+    }
+
+    .position {
+        display: none;
+    }
+
     .gamer-container {
-        margin-top: 350px;
+        margin-top: 50px;
     }
 
     .gamer-des {
