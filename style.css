@@ -156,6 +156,65 @@ nav {
     width: 100%;
 }
 
+/* We are gamer */
+.game-container {
+    display: flex;
+    align-items: center;
+    margin: 0 40px;
+}
+
+.game-content h2 {
+    color: #FF42A5;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.game-content p {
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.btn-1 {
+    text-align: right;
+}
+
+.btn-1 button {
+    padding: 21px 40px;
+    border-radius: 48px;
+    background-color: #FF42A5;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.game-content h5 {
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+}
+
+.game-content h4 {
+    color: #534C64;
+    font-family: Work Sans;
+    text-align: right;
+    font-size: 23px;
+}
+
 /* Careers section*/
 
 .careers-container {
@@ -296,12 +355,12 @@ nav {
     background: #FFF;
 }
 
-/* warning */
+/* warning section */
 .warning {
     display: flex;
     margin-top: 100px;
-    /* align-items: center; */
     background: #FFF;
+    height: 725px;
 }
 
 .warning-alarm {
@@ -322,7 +381,7 @@ nav {
     font-size: 38px;
     font-style: normal;
     font-weight: 700;
-    line-height: 60px;
+    line-height: 50px;
     margin-right: 40%;
     padding-top: 90px;
 }
@@ -334,7 +393,7 @@ nav {
     text-align: right;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 25px;
     margin-right: 40%;
 }
 
@@ -348,6 +407,58 @@ nav {
     bottom: 300px;
     left: -160px;
 
+}
+
+/* id related */
+#warning {
+    display: flex;
+    background: #FFF;
+    height: 725px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+#warning-img-1 {
+    width: 50%;
+}
+
+#warning-img-2 {
+    position: relative;
+    bottom: 300px;
+    right: -160px;
+    text-align: end;
+}
+
+#warning-alarm {
+    width: 50%;
+    margin-left: 20%;
+    margin-top: 90px;
+    margin-right: 40px;
+
+}
+
+#alarm {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#warning-alarm h2 {
+    font-family: Work Sans;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+#warning-alarm p {
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
 }
 
 /* footer section */
